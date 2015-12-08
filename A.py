@@ -31,4 +31,3 @@ for i in range(len(A) - 1):
 f = open('output.txt', 'w')
 print(x, file = f)
 f.close()
-
