@@ -30,5 +30,5 @@ for i in range(len(A) - 1):
         if A[i] == A[j]:
             x = A[i]
 f = open('output.txt', 'w')
-print(x)
+print(x, file = f)
 f.close()
