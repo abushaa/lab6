@@ -42,7 +42,7 @@
 
 f = open('input.txt')
 A = f.readline().split()
-N = int(A[0])
+N = int(A[0]) 
 K = int(A[1])
 S = [0]*N
 for i in range(K):
