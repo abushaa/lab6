@@ -17,8 +17,11 @@
 +-------------+-------+
 '''
 
-N=int(input())
-A = list(map(int, input().split()))
+file = open('input.txt')
+N = int(file.readline())
+A = file.readline().split()
+#N=int(input())
+#A = list(map(int, input().split()))
 for i in range(len(A)):
     A[i] = int(A[i])
 
